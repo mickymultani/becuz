@@ -1,7 +1,6 @@
 # becuz
 
 [![npm version](https://img.shields.io/npm/v/becuz.svg)](https://www.npmjs.com/package/becuz)
-[![npm downloads](https://img.shields.io/npm/dm/becuz.svg)](https://www.npmjs.com/package/becuz)
 [![CI](https://github.com/mickymultani/becuz/actions/workflows/ci.yml/badge.svg)](https://github.com/mickymultani/becuz/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/node/v/becuz.svg)](https://www.npmjs.com/package/becuz)
