@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 0.1.2
+
+- Docs: removed the npm downloads badge (shows "not found" until a package has
+  download history) and minor README polish.
+
 ## 0.1.1
 
 - Now published via GitHub Actions **OIDC trusted publishing**, so releases carry
