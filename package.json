@@ -1,0 +1,60 @@
+{
+  "name": "becuz",
+  "version": "0.1.0",
+  "description": "Agent-agnostic MCP server that records WHY architectural, product, and development decisions are made during AI-assisted coding.",
+  "license": "MIT",
+  "author": "Micky Multani",
+  "homepage": "https://github.com/mickymultani/becuz#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickymultani/becuz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mickymultani/becuz/issues"
+  },
+  "type": "module",
+  "bin": {
+    "becuz": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "VERSION",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "server": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "version": "node scripts/sync-version.mjs && git add VERSION"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "decision-records",
+    "adr",
+    "ai-coding"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "simple-git": "^3.27.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
