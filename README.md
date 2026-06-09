@@ -289,7 +289,7 @@ with becuz so the reasoning lands in `.becuz/` alongside the diff.
 ## Status
 
 v0.1 (MVP). Deferred: VS Code extension, HTTP transport, semantic search,
-multi-repo aggregation, Claude Code auto-flush hooks. See `becuz-PRD.md`.
+multi-repo aggregation, and Claude Code auto-flush hooks.
 
 ## License
 

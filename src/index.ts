@@ -23,9 +23,9 @@ import { VERSION } from "./version.js";
 /**
  * becuz MCP server (stdio).
  *
- * Exposes the decision-capture/query tools described in the PRD. The repo root
- * defaults to the process working directory (where the agent launches the
- * server) and can be overridden with BECUZ_ROOT.
+ * Exposes the decision-capture/query tools over MCP. The repo root defaults to
+ * the process working directory (where the agent launches the server) and can
+ * be overridden with BECUZ_ROOT.
  */
 
 const REPO_ROOT = process.env.BECUZ_ROOT || process.cwd();

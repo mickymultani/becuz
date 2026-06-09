@@ -37,10 +37,13 @@ src/
   git.ts         git evidence capture + code-comment scanner
   decisions.ts   core logic: create / supersede / update / deprecate / query / list
   index.ts       MCP server (stdio) — wires the 7 tools
-  cli.ts         CLI entry: serve / init / guidance / rebuild-index
-  guidance.ts    the agent-guidance snippet installed into CLAUDE.md
+  cli.ts         CLI entry: serve / init / guidance / rebuild-index / version
+  mcpconfig.ts   writes OS-correct MCP config for Claude / Cursor / Codex
+  guidance.ts    the agent-guidance snippet (CLAUDE.md / AGENTS.md)
+  version.ts     resolves the version from package.json
 scripts/
-  smoke.mjs      stdio MCP roundtrip test
+  smoke.mjs        stdio MCP roundtrip test
+  sync-version.mjs mirrors package.json version into the VERSION file
 ```
 
 ## Guidelines
