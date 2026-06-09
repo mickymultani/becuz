@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here.
 
+## 0.1.1
+
+- Now published via GitHub Actions **OIDC trusted publishing**, so releases carry
+  signed npm provenance ("Built and signed on GitHub Actions").
+- CI: the publish workflow skips any version already on npm (safe re-tagging).
+- Docs: removed a stale reference and tidied the project layout.
+
 ## 0.1.0
 
 First release.
